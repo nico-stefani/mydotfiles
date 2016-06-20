@@ -33,13 +33,15 @@
      
     [ -r /etc/bash_completion   ] && . /etc/bash_completion
     [ -r /etc/bash.bashrc.local ] && . /etc/bash.bashrc.local
-     
+    
+    #Powerline configuration 
     if [ -f `which powerline-daemon` ]; then
       powerline-daemon -q
       POWERLINE_BASH_CONTINUATION=1
       POWERLINE_BASH_SELECT=1
       . /usr/share/powerline/bash/powerline.sh
-    fi
+    fi 
+
     # Aliases
     alias ls='ls --color=auto'
     alias meteo='curl http://wttr.in/cordoba'
