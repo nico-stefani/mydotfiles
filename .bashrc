@@ -48,6 +48,9 @@
     alias don='~/Codigo/scripts/sshDon.sh'
     alias ocean='~/Codigo/scripts/sshOcean.sh'   
     alias tmux='tmux -2'
+    alias gits='git status'
+    alias gitp='git pull'
+    
     # Default Editor
     export EDITOR="vim"
      
