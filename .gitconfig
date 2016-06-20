@@ -1,0 +1,7 @@
+[user]
+	name = Nicolas Stefani
+	email = nicolas471@openmailbox.org
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
