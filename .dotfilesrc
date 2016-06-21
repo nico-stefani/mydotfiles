@@ -4,6 +4,7 @@ ignore = [
     '.git',
     '.gitignore',
     '*.swp',
-    'install.sh']
-packages = ['terminator',
-            'i3']
+    'install.sh',
+    'LICENSE',
+    'README.md']
+packages = ['.config']
