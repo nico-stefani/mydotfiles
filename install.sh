@@ -2,6 +2,6 @@
 #! -*- ENCODING = UTF-8 -*- 
 
 # create a symbolic link for dotfiles configuration
-ln dotfilesrc ~/.dotfilesrc
+ln .dotfilesrc ~/.dotfilesrc
 # dotfiles packages is need
 dotfiles --sync
