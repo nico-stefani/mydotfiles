@@ -5,4 +5,5 @@ ignore = [
     '.gitignore',
     '*.swp',
     'install.sh']
-packages = ['config']
+packages = ['terminator',
+            'i3']
