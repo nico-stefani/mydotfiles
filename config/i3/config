@@ -154,3 +154,5 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+# Set wallpaper
+exec --no-startup-id feh --bg-scale S~/Imágenes/wallhaven-266868.jpg
