@@ -34,6 +34,11 @@
     [ -r /etc/bash_completion   ] && . /etc/bash_completion
     [ -r /etc/bash.bashrc.local ] && . /etc/bash.bashrc.local
     
+    #virtualenvwrapper init
+    export WORKON_HOME=$HOME/.Envs
+    export PROJECT_HOME=$HOME/Codigo
+    source /usr/bin/virtualenvwrapper.sh
+    
     #Powerline configuration 
     if [ -f `which powerline-daemon` ]; then
       powerline-daemon -q
@@ -51,6 +56,9 @@
     alias gits='git status'
     alias gitp='git pull'
     
+    #Call script for download subs 
+    alias download='~/Codigo/scripts/download_sub.sh'
+
     # Default Editor
     export EDITOR="vim"
      
