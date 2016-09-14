@@ -3,6 +3,7 @@
   broadcast_all = F12
   broadcast_off = <Primary>F12
   copy = F9
+  help = None
   paste = F10
   split_horiz = F7
   split_vert = F8
