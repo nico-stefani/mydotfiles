@@ -48,11 +48,13 @@
     fi 
 
     # Aliases
+    eval "$(thefuck --alias)"
     alias ls='ls --color=auto'
     alias meteo='curl http://wttr.in/cordoba'
     alias don='~/Codigo/scripts/sshDon.sh'
     alias ocean='~/Codigo/scripts/sshOcean.sh'   
     alias tmux='tmux -2'
+    alias srvt='ssh 192.168.0.250'
     #Git alias
     alias gits='git status'
     alias gitp='git pull'
