@@ -58,8 +58,8 @@ Plug 'motemen/git-vim'
 " Tab list panel
 Plug 'kien/tabman.vim'
 " Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 " Terminal Vim with 256 colors colorscheme
 Plug 'fisadev/fisa-vim-colorscheme'
 " Consoles as buffers
