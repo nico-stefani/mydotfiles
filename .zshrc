@@ -4,6 +4,7 @@
 export ZSH=/home/nstefani/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
+DISABLE_AUTO_TITLE=true
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -57,7 +58,7 @@ alias srvt='ssh 192.168.0.250'
 #SSH 
 alias don='~/Codigo/scripts/sshDon.sh'
 alias ocean='~/Codigo/scripts/sshOcean.sh'   
-alias lace='ssh 190.210.81.237 -p9191'
+alias work='ssh 190.210.81.237 -p9191'
 
 #Git alias
 alias gits='git status'
@@ -69,3 +70,5 @@ alias download='~/Codigo/scripts/download_sub.sh'
 
 #Default Editor
 export EDITOR="vim"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
