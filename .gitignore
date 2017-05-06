@@ -46,3 +46,9 @@ config/user-dirs.dirs
 config/user-dirs.locale
 config/vlc/
 config/yelp/
+config/ReText project/
+config/VirtualBox/
+config/dleyna-server-service.conf
+config/gnote/
+config/monitors.xml
+config/monitors.xml~
