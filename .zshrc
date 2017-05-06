@@ -67,3 +67,4 @@ alias download='~/Codigo/scripts/download_sub.sh'
 export EDITOR="vim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
