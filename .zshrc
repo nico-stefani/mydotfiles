@@ -51,7 +51,7 @@ source /usr/bin/virtualenvwrapper.sh
 # Aliases
 eval "$(thefuck --alias)"
 alias ls='ls --color=auto'
-alias meteo='curl http://wttr.in/cordoba?lang=es'
+alias meteo="curl 'http://wttr.in/cordoba?lang=es'"
 alias tmux='tmux -2'
 alias srvt='ssh 192.168.0.250'
 
