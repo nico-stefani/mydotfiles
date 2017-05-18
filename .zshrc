@@ -59,6 +59,7 @@ alias srvt='ssh 192.168.0.250'
 alias don='~/Codigo/scripts/sshDon.sh'
 alias ocean='~/Codigo/scripts/sshOcean.sh'   
 alias work='ssh 190.210.81.237 -p9191'
+alias virtual='ssh supervisor@192.168.122.173'
 
 #Call script for download subs 
 alias download='~/Codigo/scripts/download_sub.sh'
