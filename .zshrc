@@ -10,7 +10,7 @@ DISABLE_AUTO_TITLE=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dnf pip virtualenvwrapper)
+plugins=(git dnf pip virtualenvwrapper docker docker-compose rsync)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -68,3 +68,4 @@ export EDITOR="vim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
+
