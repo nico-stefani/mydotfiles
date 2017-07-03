@@ -31,7 +31,6 @@ config/menus/
 config/mimeapps.list
 config/mps-youtube/
 config/nautilus/
-config/nvim/
 config/pudb/
 config/pulse/
 config/remmina/
