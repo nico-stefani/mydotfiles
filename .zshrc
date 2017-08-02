@@ -43,6 +43,9 @@ export LANG=es_AR.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# PATH additions
+PATH=$PATH:~/.local/bin
+
 #virtualenvwrapper init
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Codigo
