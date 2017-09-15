@@ -3,6 +3,10 @@
   broadcast_all = F12
   broadcast_off = <Primary>F12
   copy = F9
+  go_down = <Alt>KP_2
+  go_left = <Alt>KP_4
+  go_right = <Alt>KP_6
+  go_up = <Alt>KP_8
   help = None
   paste = F10
   split_horiz = F7
@@ -19,14 +23,12 @@
 [profiles]
   [[default]]
     background_color = "#002b36"
-    background_darkness = 0.67
+    background_darkness = 0.47
     cursor_color = "#839496"
-    font = Fira Mono Medium 9
+    font = Sans 10
     foreground_color = "#839496"
     icon_bell = False
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
-    rewrap_on_resize = False
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
-    use_system_font = False
