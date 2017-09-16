@@ -49,26 +49,20 @@ PATH=$PATH:~/.local/bin
 #virtualenvwrapper init
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Codigo
-source /usr/bin/virtualenvwrapper.sh
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 # Aliases
 eval "$(thefuck --alias)"
 alias ls='ls --color=auto'
 alias meteo="curl 'http://wttr.in/cordoba?lang=es'"
 alias tmux='tmux -2'
-alias srvt='ssh 192.168.0.250'
-
-#SSH 
-alias don='~/Codigo/scripts/sshDon.sh'
-alias ocean='~/Codigo/scripts/sshOcean.sh'   
-alias work='ssh 190.210.81.237 -p9191'
-alias virtual='ssh supervisor@192.168.122.173'
+alias vim='nvim'
 
 #Call script for download subs 
 alias download='~/Codigo/scripts/download_sub.sh'
 
 #Default Editor
-export EDITOR="vim"
+export EDITOR="nvim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
