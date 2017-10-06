@@ -53,10 +53,15 @@ config/monitors.xml
 config/monitors.xml~
 config/Code/Backups
 config/Code/Cache
-config/Code/CacheData
+config/Code/CachedData
 config/Code/GPUCache
 config/Code/Local Storage
 config/Code/*.sock
+config/Code/Cookies
+config/Code/Cookies-journal
+config/Code/machineid
+config/Code/Preferences
+config/Code/storage.json
 config/compiz-1/
 config/goa-1.0/
 config/libaccounts-glib/
