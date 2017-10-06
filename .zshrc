@@ -10,7 +10,7 @@ DISABLE_AUTO_TITLE=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dnf pip virtualenvwrapper docker docker-compose rsync)
+plugins=(git dnf pip docker docker-compose rsync)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,6 +49,7 @@ PATH=$PATH:~/.local/bin
 #virtualenvwrapper init
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Codigo
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
 # Aliases
@@ -65,5 +66,5 @@ alias download='~/Codigo/scripts/download_sub.sh'
 export EDITOR="nvim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
+#[ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
 
