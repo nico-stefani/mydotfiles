@@ -1,0 +1,7 @@
+{
+    "editor.minimap.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": true,
+    "window.zoomLevel": 0
+}
