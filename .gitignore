@@ -51,3 +51,22 @@ config/dleyna-server-service.conf
 config/gnote/
 config/monitors.xml
 config/monitors.xml~
+config/Code/Backups
+config/Code/Cache
+config/Code/CachedData
+config/Code/GPUCache
+config/Code/Local Storage
+config/Code/*.sock
+config/Code/Cookies
+config/Code/Cookies-journal
+config/Code/machineid
+config/Code/Preferences
+config/Code/storage.json
+config/compiz-1/
+config/goa-1.0/
+config/libaccounts-glib/
+config/nvim/autoload/
+config/nvim/plugged/
+config/nvim/yankring_history_v2.txt
+config/spotify/
+config/unity/
