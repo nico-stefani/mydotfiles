@@ -15,10 +15,8 @@ export LANG=es_AR.UTF-8
 PATH=$PATH:~/.local/bin:~/.pyenv/bin
 
 # PYENV setup
-#eval "$(pyenv init -)"
-#eval "$(pyenv virtualenv-init -)"
-#pyenv virtualenvwrapper_lazy
-#export PYENV_VIRTUALENVWRAPPER_PREFER_PYENV="true"
+export PYENV_ROOT=~/.pyenv
+eval "$(pyenv init -)"
 
 #virtualenvwrapper init
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
