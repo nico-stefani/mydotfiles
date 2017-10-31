@@ -1,6 +1,6 @@
 export ZSH=/home/nstefani/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="cypher"
 DISABLE_AUTO_TITLE=true
 
 #Plugins 
@@ -12,13 +12,22 @@ source $ZSH/oh-my-zsh.sh
 export LANG=es_AR.UTF-8
 
 # PATH additions
-PATH=$PATH:~/.local/bin
+PATH=$PATH:~/.local/bin:~/.pyenv/bin
+
+# PYENV setup
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
+#pyenv virtualenvwrapper_lazy
+#export PYENV_VIRTUALENVWRAPPER_PREFER_PYENV="true"
 
 #virtualenvwrapper init
-export WORKON_HOME=$HOME/.Envs
-export PROJECT_HOME=$HOME/Codigo
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.Envs
+export PROJECT_HOME=$HOME/Codigo
+
+#Pipenv eval 
+eval "$(pipenv --completion)"
 
 # Aliases
 eval "$(thefuck --alias)"
@@ -35,4 +44,3 @@ export EDITOR="nvim"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #[ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
-
