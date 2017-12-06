@@ -1,6 +1,6 @@
 export ZSH=/home/nstefani/.oh-my-zsh
 
-ZSH_THEME="cypher"
+ZSH_THEME="mrtazz"
 DISABLE_AUTO_TITLE=true
 
 #Plugins 
