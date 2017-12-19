@@ -2,13 +2,13 @@
 [keybindings]
   broadcast_all = F12
   broadcast_off = <Primary>F12
-  copy = F9
+  copy = <Primary><Shift>c
   go_down = <Alt>KP_2
   go_left = <Alt>KP_4
   go_right = <Alt>KP_6
   go_up = <Alt>KP_8
   help = None
-  paste = F10
+  paste = <Primary><Shift>v
   split_horiz = F7
   split_vert = F8
 [layouts]
@@ -25,10 +25,11 @@
     background_color = "#282828"
     background_darkness = 0.47
     cursor_color = "#839496"
-    font = Sans 10
+    font = Ubuntu Mono 10
     foreground_color = "#ebdbb2"
     icon_bell = False
     palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
+    use_system_font = False
