@@ -1,1 +1,0 @@
-/home/nstefani/.config/fisherman/ansible-completion/conf.d/ansible-completion.fish

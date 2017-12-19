@@ -1,1 +1,0 @@
-/home/nstefani/.config/fisherman/pipenv/conf.d/pipenv.fish

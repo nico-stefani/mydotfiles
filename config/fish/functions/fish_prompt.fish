@@ -1,1 +1,0 @@
-/home/nstefani/.local/share/omf/themes/hulk/fish_prompt.fish
