@@ -70,3 +70,6 @@ config/nvim/plugged/
 config/nvim/yankring_history_v2.txt
 config/spotify/
 config/unity/
+ipython/profile_default/db/*
+ipython/profile_default/startup/*
+ipython/profile_default/*.sqlite
