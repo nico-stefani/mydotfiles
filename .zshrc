@@ -24,9 +24,6 @@ source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Codigo
 
-#Pipenv eval 
-eval "$(pipenv --completion)"
-
 # Aliases
 eval "$(thefuck --alias)"
 alias ls='ls --color=auto'
