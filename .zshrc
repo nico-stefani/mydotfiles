@@ -19,8 +19,8 @@ export PYENV_ROOT=~/.pyenv
 eval "$(pyenv init -)"
 
 #virtualenvwrapper init
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source ~/.local/bin/virtualenvwrapper.sh
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Codigo
 
