@@ -30,6 +30,7 @@ alias ls='ls --color=auto'
 alias meteo="curl 'http://wttr.in/cordoba?lang=es'"
 alias tmux='tmux -2'
 alias vim='nvim'
+alias pip='pip3'
 
 #Call script for download subs 
 alias download='~/Projects/scripts/download_sub.sh'
