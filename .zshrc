@@ -22,7 +22,7 @@ eval "$(pyenv init -)"
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source ~/.local/bin/virtualenvwrapper.sh
 export WORKON_HOME=$HOME/.Envs
-export PROJECT_HOME=$HOME/Codigo
+export PROJECT_HOME=$HOME/Projects
 
 # Aliases
 eval "$(thefuck --alias)"
@@ -32,7 +32,7 @@ alias tmux='tmux -2'
 alias vim='nvim'
 
 #Call script for download subs 
-alias download='~/Codigo/scripts/download_sub.sh'
+alias download='~/Projects/scripts/download_sub.sh'
 
 #Default Editor
 export EDITOR="nvim"
