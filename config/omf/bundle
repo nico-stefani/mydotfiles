@@ -1,8 +1,0 @@
-package apt
-package extract
-package gi
-package python
-package wttr
-theme default
-theme godfather
-theme hulk
