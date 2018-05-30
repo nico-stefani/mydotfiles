@@ -12,7 +12,7 @@ source $ZSH/oh-my-zsh.sh
 export LANG=es_AR.UTF-8
 
 # PATH additions
-PATH=$PATH:~/.local/bin:~/.pyenv/bin
+PATH=$PATH:~/.local/bin:~/.pyenv/bin:~/.go/bin
 
 # PYENV setup
 export PYENV_ROOT=~/.pyenv
@@ -23,6 +23,9 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source ~/.local/bin/virtualenvwrapper.sh
 export WORKON_HOME=$HOME/.Envs
 export PROJECT_HOME=$HOME/Projects
+
+# GO Path
+export GOPATH=$HOME/.go
 
 # Aliases
 eval "$(thefuck --alias)"
