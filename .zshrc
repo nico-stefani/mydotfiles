@@ -11,12 +11,11 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=es_AR.UTF-8
 
-# PATH additions
-PATH=$PATH:~/.local/bin:~/.pyenv/bin:~/.go/bin
-
 # PYENV setup
 export PYENV_ROOT=~/.pyenv
-eval "$(pyenv init -)"
+
+# PATH additions
+PATH=$PYENV_ROOT/bin:~/.local/bin:~/.pyenv/bin:~/.go/bin:$PATH
 
 #virtualenvwrapper init
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
@@ -33,13 +32,15 @@ alias ls='ls --color=auto'
 alias meteo="curl 'http://wttr.in/cordoba?lang=es'"
 alias tmux='tmux -2'
 alias vim='nvim'
-alias pip='pip3'
 
 #Call script for download subs 
 alias download='~/Projects/scripts/download_sub.sh'
 
 #Default Editor
 export EDITOR="nvim"
+
+# Inits
+eval "$(pyenv init -)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 #[ -z "$TMUX" ] && export TERM=xterm-256color && exec tmux
