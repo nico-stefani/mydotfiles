@@ -3,5 +3,9 @@
     "workbench.startupEditor": "newUntitledFile",
     "python.linting.flake8Enabled": true,
     "python.linting.pep8Enabled": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "python.venvPath": "~/.Envs",
+    "editor.fontSize": 13
 }
